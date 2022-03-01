@@ -1,0 +1,92 @@
+/* containers */
+.container {
+    margin: 0 auto;
+    max-width: 1920px;
+}
+
+.inner-container {
+    max-width: 70%;
+    margin: 0 auto;
+   }
+
+/* background image */
+.bg-image {
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+/*  button */
+.btn {
+        padding: 14px 28px;
+        transition: all 0.5s ease-out;
+}
+
+.btn-lg {
+    width: 200px;
+    padding-top: 18px;
+    padding-bottom: 18px;
+}
+
+.btn-primary {
+    background-color: var(--color-primary);
+    border: 1.5px solid var(--color-primary);
+    color: var(--color-light);
+}
+
+.btn-light {
+    border: 1.5px solid var(--color-primary);
+    color: var(--color-dark);
+}
+
+.btn-primary:hover{
+    background-color: transparent;
+    color: var(--color-dark);
+}
+
+.btn-light:hover{
+    background-color: var(--color-primary);
+    color: var(--color-light);
+}
+
+/* Colors */
+.color-primary {color: var(--color-primary);}.bg-color-primary {background-color: var(--color-primary);}
+.color-primary-light {color: var(--color-primary-light);}.bg-color-primary-light {background-color: var(--color-primary-light);}
+.color-dark {color: var(--color-dark);}.bg-color-dark {background-color: var(--color-dark);}
+.color-light {color: var(--color-light);}.bg-color-light {background-color: var(--color-light);}
+
+
+/* line After */
+.vr-line-after::after  {
+    content: '';
+    background-color: var(--color-primary-light);
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    margin-bottom: 25px;
+    margin-right: -120px;
+    height: 2px;
+    width: 100px;
+}
+
+/* flex and grid waka waka */
+
+.buy-house-form.flex {
+    justify-content: flex-start;
+}
+
+.flex {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 25px;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+}
