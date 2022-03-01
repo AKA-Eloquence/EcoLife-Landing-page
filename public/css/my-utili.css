@@ -16,6 +16,14 @@
     background-position: center;
 }
 
+/* img box shadow */
+.image-box-shadow {
+    box-shadow: -1px 3px 17px -2px rgba(0,0,0,0.2);
+    -webkit-box-shadow: -1px 3px 17px -2px rgba(0,0,0,0.2);
+    -moz-box-shadow: -1px 3px 17px -2px rgba(0,0,0,0.2);
+    -o-box-shadow: -1px 3px 17px -2px rgba(0,0,0,0.2);
+}
+
 /*  button */
 .btn {
         padding: 14px 28px;
