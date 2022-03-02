@@ -64,7 +64,7 @@
 .color-light {color: var(--color-light);}.bg-color-light {background-color: var(--color-light);}
 
 
-/* line After */
+/* line Lines */
 .vr-line-after::after  {
     content: '';
     background-color: var(--color-primary-light);

@@ -265,7 +265,69 @@ nav::after {
 }
 
 /* Wooden House Farrow */
+/* about farrow house */
+.house-farrow-inner {
+    width: 80%;
+}
+
 .wooden-house-farrow.grid {
-    grid-template-columns: 25% 35% 1fr;
-    grid-template-rows: 40% 60%;
+    grid-template-columns: 23% 30% 1fr;
+    grid-template-rows: 45% 1fr;
+}
+
+.about-farrow {
+    grid-column: 3 / 4;
+    grid-row: 1 / -1;
+}
+
+.farrow-pic1 {
+    grid-column: 1 / 3;
+}
+
+/* --------About us Section */
+
+.about-us-wrapper.grid {
+    grid-template-columns: 45% 1fr;
+    gap: unset;
+}
+
+.about-us-inner {
+    background-color: hsl(0, 0%, 96%);
+}
+
+.about-us-inner::before {
+    background-color: hsl(0, 0%, 96%);
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    margin-left: -35px;
+    height: 100%;
+    width: 35px;
+}
+
+.about-us-inner .vr-line-after::after{
+    margin-bottom: 25px;
+    margin-right: 178px;
+    width: 150px;
+}
+
+.about-us-inner-paras {
+    width: 80%;
+}
+
+.about-us .grid {
+    height: unset;
+    gap: unset;
+}
+
+
+
+.about-us {
+    grid-column: 2 / -1;
+    grid-row: 1 / -1;
+}
+
+.about-us-pic1 {
+    grid-column: 1 / 2;
 }
