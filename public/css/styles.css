@@ -438,3 +438,22 @@ nav::after {
 .house-adva-pic6 {
     height: 99%;
 }
+
+/* Our Ready Projects Section */
+.our-ready-projects .vr-line-after::after {
+    margin-bottom: 25px;
+    margin-left: -169px;
+    width: 150px;
+    right: unset;
+    left: 0;
+}
+
+.ready-projects.flex {
+    justify-content: space-between;
+    flex-wrap: wrap;
+}
+
+.ready-projects div{
+    height: 350px;
+    width: 31%;
+}
