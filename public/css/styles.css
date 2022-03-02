@@ -97,7 +97,7 @@ nav::after {
     content: '';
     background-color: #ffffff2b;
     height: 100%;
-    width: 1.5px;
+    width: 1px;
     position: absolute;
     top: 0;
     right: 130px;
@@ -321,8 +321,6 @@ nav::after {
     gap: unset;
 }
 
-
-
 .about-us {
     grid-column: 2 / -1;
     grid-row: 1 / -1;
@@ -330,4 +328,113 @@ nav::after {
 
 .about-us-pic1 {
     grid-column: 1 / 2;
+}
+
+/* Customer Reviews */
+.cus-reviews {
+    background-color: 	hsla(0, 0%, 0%, 1);
+    height: 550px;
+    overflow: visible;
+}
+
+.cus-reviews .vr-line-after::after{
+    margin-bottom: 25px;
+    margin-left: -169px;
+    width: 150px;
+    right: unset;
+    left: 0;
+}
+
+.cus-reviews .flex {
+    gap: 35px;
+}
+
+.user-item{
+    background-color: hsla(35, 30%, 76%, 1);
+    text-align: center;
+}
+
+.user-item .grid {
+    grid-template-columns: unset;
+    grid-template-rows: 200px 180px;
+    gap: unset;
+    align-items: unset;
+}
+
+.user-avatar {
+    border: 1px solid var(--color-primary);
+    border-radius: 50%;
+    height: 80px; 
+    width: 80px; 
+    
+}
+
+/* House Advantages */
+.house-advantages {
+    background-color: hsla(0, 0%, 96%,1);
+}
+
+.house-advantages .vr-line-after::after{
+    margin-right: -170px;
+    width: 150px;
+}
+
+.house-adva-inner.grid {
+    grid-template-columns: 1fr 15% 18% 15% 17%;
+    grid-template-rows: 200px 100px 50px;
+}
+
+.house-adva-item1 {
+    grid-column: 1 / span 1;
+    grid-row: 1 /span 2;
+}
+
+.house-adva-item2 {
+    margin-top: -60px;
+    grid-column: 2/ span 2;
+    grid-row: 1/ span 1;
+}
+
+.house-adva-item3 {
+    margin-bottom: -40px;
+    grid-column: 2 / span 1;
+    grid-row: 2 / span 2;
+}
+
+.house-adva-item4 {
+}
+
+.house-adva-item5 {
+    grid-column: 3 / span 2;
+    grid-row: 2 / span 2;
+}
+
+.house-adva-item6 {
+    margin-top: -60px;
+    grid-row: 1 / span 2;
+}
+
+/* House Advantages pictures */
+.house-adva-pic1 {
+    height: 90%;
+}
+
+.house-adva-pic2 {
+    height: 118%;
+}
+
+.house-adva-pic3 {
+    height: 90%;
+}
+
+.house-adva-pic4 {
+    height: 90%;
+}
+
+.house-adva-pic5 {
+    height: 114%;
+}
+
+.house-adva-pic6 {
+    height: 99%;
 }
