@@ -195,8 +195,8 @@ nav::after {
 
 /* Brandon House */
 .brandon-house.grid {
-    grid-template-columns: auto 31% 25%;
-    grid-template-rows: auto 12% 30%;
+    grid-template-columns: 1fr 31% 25%;
+    grid-template-rows: 1fr 12% 30%;
 }
 
 .house-spec {
@@ -235,7 +235,7 @@ nav::after {
 
 /* Tarden House */
 .tarden-house.grid {
-    grid-template-columns: 34% auto;
+    grid-template-columns: 34% 1fr;
     grid-template-rows: 36% 61.3%;
 }
 
@@ -260,8 +260,12 @@ nav::after {
     grid-column: 1 / 2;
 }
 
+.tarden-pic3.bg-image {
+    background-position: top 0 right 0;
+}
+
 /* Wooden House Farrow */
 .wooden-house-farrow.grid {
-    grid-template-columns: 30% 30% 40%;
+    grid-template-columns: 25% 35% 1fr;
     grid-template-rows: 40% 60%;
 }
