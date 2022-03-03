@@ -50,18 +50,25 @@ li {
 }
 
 /* place holder color */
-::placeholder {
-    color: hsla(0, 0%, 16%, 0.5);
-    opacity: 1; /* Firefox */
-  }
-  
-  :-ms-input-placeholder { /* Internet Explorer 10-11 */
-    color: hsla(0, 0%, 16%, 0.5);
-  }
-  
-  ::-ms-input-placeholder { /* Microsoft Edge */
-    color: hsla(0, 0%, 16%, 0.5);
-  }
+input::-webkit-input-placeholder { color:hsla(0, 0%, 16%, 0.5); }
+input::-moz-placeholder { color:hsla(0, 0%, 16%, 0.5); }
+input::-moz-placeholder { color:transparent; }
+input:-ms-input-placeholder { color:hsla(0, 0%, 16%, 0.5); }
+
+textarea::-webkit-input-placeholder { color:hsla(0, 0%, 16%, 0.5); }
+textarea:-moz-placeholder { color:hsla(0, 0%, 16%, 0.5); }
+textarea::-moz-placeholder { color:hsla(0, 0%, 16%, 0.5); }
+textarea:-ms-input-placeholder { color:hsla(0, 0%, 16%, 0.5); }
+
+input:focus::-webkit-input-placeholder { color:transparent; }
+input:focus:-moz-placeholder { color:transparent; }
+input:focus::-moz-placeholder { color:transparent; }
+input:focus:-ms-input-placeholder { color:transparent; }
+
+textarea:focus::-webkit-input-placeholder { color:transparent; }
+textarea:focus:-moz-placeholder { color:transparent; }
+textarea:focus::-moz-placeholder { color:transparent; }
+textarea:focus:-ms-input-placeholder { color:transparent; }
 
 input,textarea,input:active,textarea:active{
     background-color: transparent;
@@ -77,16 +84,6 @@ textarea{
     padding: 0;
     font-family: 'Poppins', sans-serif;
 }
-
-input:focus::-webkit-input-placeholder { color:transparent; }
-input:focus:-moz-placeholder { color:transparent; }
-input:focus::-moz-placeholder { color:transparent; }
-input:focus:-ms-input-placeholder { color:transparent; }
-
-textarea:focus::-webkit-input-placeholder { color:transparent; }
-textarea:focus:-moz-placeholder { color:transparent; }
-textarea:focus::-moz-placeholder { color:transparent; }
-textarea:focus:-ms-input-placeholder { color:transparent; }
 
   /* Navigation bar */
 
