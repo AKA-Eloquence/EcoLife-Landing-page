@@ -306,6 +306,10 @@ nav::after {
     width: 35px;
 }
 
+.about-us-inner h2 {
+    left: 168px;
+}
+
 .about-us-inner .vr-line-after::after{
     margin-bottom: 25px;
     margin-right: 178px;
@@ -335,6 +339,10 @@ nav::after {
     background-color: 	hsla(0, 0%, 0%, 1);
     height: 550px;
     overflow: visible;
+}
+
+.cus-reviews h2 {
+    left: 168px;
 }
 
 .cus-reviews .vr-line-after::after{
@@ -440,6 +448,9 @@ nav::after {
 }
 
 /* Our Ready Projects Section */
+.our-ready-projects .heading {
+    left: 168px;
+}
 .our-ready-projects .vr-line-after::after {
     margin-bottom: 25px;
     margin-left: -169px;
