@@ -564,3 +564,29 @@ textarea[name=comment] {
     margin-top: 15px;
     padding: 20px 0;
 }
+
+/* Socials Section */
+.socials {
+    background-color: hsla(0, 0%, 0%, 1);
+    color: var(--color-primary);
+}
+
+.socials .flex:nth-child(1) {
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.icons.flex {
+    justify-content: space-between;
+    gap: 20px;
+    margin: 15px 0 15px 0;
+}
+
+.terms-link {
+    font-size: 15px;
+    color: #ffffff5b;
+    right: 0;
+    bottom: 0;
+    margin-bottom: -35px;
+    text-decoration: underline;
+}
