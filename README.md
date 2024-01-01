@@ -1,4 +1,3 @@
 # EcoLife-Landing-page
 https://eloquence98.github.io/EcoLife-Landing-page/
-Real Estate landing page
-The structure is completely unresponsive; it's even worse, but we definitely know how to approach the upcoming projects!
+Landing page for real estate, The structure is entirely unresponsive; it's even worse, but I'm sure I'll be able to handle the forthcoming projects!
